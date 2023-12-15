@@ -1,23 +1,18 @@
-  /* Defaults CSS for all device */
-/* Common styles for all devices */
+
 
 /* Styles specific to mobile devices */
 @media (max-width: 576px) {
-    /* Your mobile-specific styles go here */
+
   }
   
   /* Styles specific to tablets */
   @media (min-width: 577px) and (max-width: 768px) {
     /* Your tablet-specific styles go here */
   }
-  
-  /* Styles specific to laptops */
-  @media (min-width: 769px) and (max-width: 992px) {
-    /* Your laptop-specific styles go here */
-  }
+
   
   /* Styles specific to desktops */
-  @media (min-width: 993px) {
+  @media (min-width: 769px) {
     /* Your desktop-specific styles go here */
   }
   
