@@ -32,7 +32,7 @@ function NavBar() {
         position: "sticky",
         top: "0",
         left: "0",
-        zIndex: "1",
+        zIndex: "20",
       }}
     >
       <Container maxWidth="xl">
@@ -58,7 +58,7 @@ function NavBar() {
                 letterSpacing: ".3rem",
                 color: "inherit",
                 textDecoration: "none",
-                width: "30%",
+                width: "20%",
               }}
             >
               <img style={{ width: "100%" }} src={AtomLogo} alt="" />
@@ -119,7 +119,7 @@ function NavBar() {
                 justifyContent: "flex-end",
               }}
             >
-              <img style={{ width: "70%" }} src={AtomLogo} alt="" />
+              <img style={{ width: "60%" }} src={AtomLogo} alt="" />
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (

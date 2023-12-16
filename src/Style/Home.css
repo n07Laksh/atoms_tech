@@ -1,18 +1,109 @@
+.home_main {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.home_fst_content {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.home_sec_content{
+  width:90%;
+  margin:0 auto;
+  margin-top:50px;
+}
+.home_fst_content > div {
+  width: 50%;
+}
+.what_sell {
+  font-size:2rem;
+  font-weight: bolder;
+  color:rgba(0,0,0,0.7)
+}
+.product_offer {
+  font-size:3rem;
+  font-weight: bolder;
+}
+.atm-desc{
+  line-height: 2em;
+  color: rgba(0,0,0,0.7);
+  font-size: 19px;
+}
+.card_container {
+  display: flex;
+  gap: 4%;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+.pro_card{
+  width:30%;
+  position: relative;
+}
+.card_parent{
+  padding:30px;
+}
+.readm{
+  padding: 0 30px;
+  position: absolute;
+  bottom: 2px;
+}
+.card_img_container{
+  width:80px;
+  margin:5px 0;
+}
 
+/* Styles specific to tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .pro_card{
+    width:48%;
+  }
+  .card_parent{
+    padding:20px;
+  }
+}
 
 /* Styles specific to mobile devices */
 @media (max-width: 576px) {
+  .home_fst_content {
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 35px;
+  }
+  .home_fst_content > div {
+    width: 100%;
+  }
+  .what_sell {
+    font-size:1rem;
+    font-weight: bolder;
+    color:rgba(0,0,0,0.7)
+  }
+  .product_offer {
+    font-size:2rem;
+    font-weight: bolder;
+  }
+  .atm-desc{
+    line-height: 1.5em;
+    color: rgba(0,0,0,0.7);
+    font-size: 16px;
+  }
+  .pro_card{
+    width:100%;
+  }
+  .card_parent{
+    padding:15px;
+  }
+  .readm{
+    padding:0 15px;
+    bottom: -10px;
+  }
+  .card_img_container{
+    width: 60px;
+  }
+  .cardh1{
+    font-size: 1.4rem;
+  }
 
-  }
-  
-  /* Styles specific to tablets */
-  @media (min-width: 577px) and (max-width: 768px) {
-    /* Your tablet-specific styles go here */
-  }
+}
 
-  
-  /* Styles specific to desktops */
-  @media (min-width: 769px) {
-    /* Your desktop-specific styles go here */
-  }
-  
+
